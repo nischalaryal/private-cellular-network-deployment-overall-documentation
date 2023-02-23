@@ -14,10 +14,10 @@ Here are the links to all the different scenario and setup while implementing Ma
 
 ## Access Gateway (AGW)
 - Different Deployment Scenario
-  - In virtual machine
-  - Headless Mode
+  - [In virtual machine](virtual-machine.md)
   - [Docker-based on Bare Metal](docker-based-bare-metal.md)
-
+  - [Setting up Headless AGW](headless-agw.md)
+  
 ## Orchestrator
 #TODO: TBD
 
