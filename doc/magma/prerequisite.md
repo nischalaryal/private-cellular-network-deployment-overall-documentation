@@ -107,3 +107,60 @@ vagrant plugin install vagrant-vbguest vagrant-disksize vagrant-reload
 ```
 echo 'export VAGRANT_DEFAULT_PROVIDER="virtualbox"' >> ~/.bashrc && exec "$SHELL"
 ```
+
+## Go
+- Download tar file
+```
+wget https://linuxfoundation.jfrog.io/artifactory/magma-blob/go1.18.3.linux-amd64.tar.gz
+```
+- Extract to /usr/local directory
+```
+sudo rm -rf /usr/local/go && sudo tar -C /usr/local -xzf go1.18.3.linux-amd64.tar.gz
+```
+- Add to PATH env variable
+```
+echo 'export PATH=$PATH:/usr/local/go/bin' >> ~/.bashrc && exec "$SHELL"
+```
+- Verify
+```
+go version
+```
+
+## pyenv
+- Update and install dependencies
+```
+sudo apt update -y && apt install -y make build-essential libssl-dev zlib1g-dev libbz2-dev    libreadline-dev libsqlite3-dev wget curl llvm libncurses5-dev  libncursesw5-dev xz-utils tk-dev libffi-dev liblzma-dev python3-openssl git
+```
+> ❗ For Ubuntu version 22.04 use python3-openssl instead of python-openssl
+- Clone pyenv repository
+```
+git clone https://github.com/pyenv/pyenv.git ~/.pyenv
+```
+- Configure env variables
+```
+echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.bashrc
+```
+```
+echo 'export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.bashrc
+```
+```
+echo -e 'if command -v pyenv 1>/dev/null 2>&1; then\n eval "$(pyenv init -) "\nfi' >> ~/.bashrc
+```
+```
+exec "$SHELL"
+```
+- Install python and set to global
+```
+pyenv install 3.8.10
+```
+```
+pyenv global 3.8.10
+```
+- Install pip
+```
+sudo apt install python3-pip
+```
+- Install dependencies through pip
+```
+pip3 install ansible fabric3 jsonpickle requests PyYAML
+```
