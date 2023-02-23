@@ -64,7 +64,46 @@ sudo docker run hello-world
 ```
 docker compose version
 ```
- 
- 
- 
- 
+
+## Virtual Box
+
+- Add gpg key
+```
+wget -O- https://www.virtualbox.org/download/oracle_vbox_2016.asc | gpg --dearmor | sudo tee /usr/share/keyrings/virtualbox.gpg > /dev/null 2>&1
+```
+- Setup repository
+```
+echo "deb [arch=amd64 signed-by=/usr/share/keyrings/virtualbox.gpg] https://download.virtualbox.org/virtualbox/debian $(lsb_release -cs) contrib" | sudo tee /etc/apt/sources.list.d/virtualbox.list > /dev/null
+
+```
+
+- Install Vbox
+```
+sudo apt update  
+```
+```
+sudo apt install virtualbox-7.0  
+```
+
+## Vagrant
+
+- Get GPG key
+```
+wget -O- https://apt.releases.hashicorp.com/gpg | gpg --dearmor | sudo tee /usr/share/keyrings/hashicorp-archive-keyring.gpg > /dev/null 2>&1
+```
+- Add repository
+```
+echo "deb [signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg] https://apt.releases.hashicorp.com $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/hashicorp.list > /dev/null
+```
+- Install vagrant
+```
+sudo apt update && sudo apt install vagrant
+```
+- Install necessary plugins
+```
+vagrant plugin install vagrant-vbguest vagrant-disksize vagrant-reload
+```
+- Add to .bashrc profile to make vbox default provider for vagrant
+```
+echo 'export VAGRANT_DEFAULT_PROVIDER="virtualbox"' >> ~/.bashrc && exec "$SHELL"
+```
