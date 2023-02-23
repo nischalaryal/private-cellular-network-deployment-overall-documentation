@@ -16,7 +16,7 @@ Here are the links to all the different scenario and setup while implementing Ma
 - Different Deployment Scenario
   - In virtual machine
   - Headless Mode
-  - Docker-based on Bare Metal
+  - [Docker-based on Bare Metal](docker-based-bare-metal.md)
 
 ## Orchestrator
 #TODO: TBD
