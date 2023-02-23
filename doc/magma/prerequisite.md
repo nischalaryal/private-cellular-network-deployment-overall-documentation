@@ -39,11 +39,31 @@ sudo apt-get update
 sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 ```
 
+- Managing Docker as non-root user
+```
+sudo groupadd docker
+```
+```
+sudo usermod -aG docker $USER
+```
+```
+newgrp docker
+```
+
 - After successful setup. Verify
 ```
 sudo docker run hello-world
 ```
- 
+
+## Docker Compose V2
+- Install
+```
+ sudo apt-get install docker-compose-plugin
+```
+- Verify
+```
+docker compose version
+```
  
  
  
