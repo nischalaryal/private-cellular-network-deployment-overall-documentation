@@ -5,6 +5,7 @@ Here are the links to all the different scenario and setup while implementing Ma
 - [e2e-setup.md](e2e-setup.md) explains the overall process to create end-to-end cellular network testbed using magma core.
 
 ## Pre-requisites setup
+[Pre-requisite setup](prerequisite.md) discusses about all the necessary applications we need to setup before working with magma. These include:
 - Docker and Docker Compose
 - Go
 - python and pip using pyenv
