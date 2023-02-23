@@ -11,4 +11,4 @@ In this repository, I have listed out all my works to created am E2E private cel
 - Magma
 
 ## E2E Overall Setup (Old Documentation)
-- [E2E Setup using OAI and Magma](https://github.com/nischalaryal/cellular-network-testbed-setup)
+- [End-to-End Setup using OAI and Magma](https://github.com/nischalaryal/cellular-network-testbed-setup)
