@@ -3,7 +3,7 @@
 In this repository, I have listed out all my works to create an end-to-end private cellular network testbed using OpenAirInterface and Magma. I have organized all the tasks I did based on the implementations I did for different part of mobile network (User Equipment, Radio Access Network, and Core Network).
 
 ## User Equipment
-- [Set up user equipment using smartphones](doc/ue.md)
+- [Set up user equipment using smartphones](doc/ue/ue.md)
 ## Radio Access Network
 - [Set up eNodeB using OpenAirInterface5g](doc/ran/oai-enodeb.md)
 ## Core Network 
