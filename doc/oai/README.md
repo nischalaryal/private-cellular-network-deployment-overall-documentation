@@ -1,4 +1,4 @@
-# Description of files
+# OpenAirInterface
 
-## e2e_setup.md
-This file explains the complete process to implement end to end cellular network testbed using only OpenAirInterface for both RAN and core.
+## End-to-End Setup
+[e2e_setup.md](e2e_setup.md) explains the complete process to implement end to end cellular network testbed using only OpenAirInterface for both RAN and core.
