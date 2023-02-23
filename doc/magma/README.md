@@ -16,7 +16,7 @@ Here are the links to all the different scenario and setup while implementing Ma
 - Different Deployment Scenario
   - [In virtual machine](virtual-machine.md)
   - [Docker-based on Bare Metal](docker-based-bare-metal.md)
-  - [Setting up Headless AGW](headless-agw.md)
+  - [Setting up Headless AGW](headless-agw.md) - A scenario without Orchestrator
   
 ## Orchestrator
 #TODO: TBD
