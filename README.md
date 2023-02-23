@@ -7,8 +7,8 @@ In this repository, I have listed out all my works to created am E2E private cel
 ## Radio Access Network
 
 ## Core Network 
-- OpenAirInterface
-- Magma
+- [Core Network setup using OpenAirInterface](doc/oai)
+- [Core Network setup using Magma Core](doc/magma)
 
 ## E2E Overall Setup (Old Documentation)
 - [End-to-End Setup using OAI and Magma](https://github.com/nischalaryal/cellular-network-testbed-setup)
