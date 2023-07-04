@@ -1,5 +1,5 @@
 # Video Link
-[YouTube](https://youtu.be/00bMo_kaVjc)
+[YouTube- Setting up User Equipment for Private Cellular Network Testbed | Hardware, Software, SIM Programming](https://youtu.be/00bMo_kaVjc)
 # Using Smartphone, and programmable SIM card to set up user equipment
 Following devices and softwares were used for setting up a Commercially Off-The Shelf (COTS) User equipment.
 - Hardware
