@@ -1,8 +1,11 @@
 # OAI-RAN SETUP
-[Video Demonstration](https://www.youtube.com/watch?v=R4feb7tNQFU&t=7s)
+
 > **Note** I last checked on 2023-02-15, and OAI enodeB develop version perfectly works on ubuntu 20.04 LTS. However, do verify the kernel and system requirements.
 
 > **Note** For setting up RAN, **[system](https://gitlab.eurecom.fr/oai/openairinterface5g/-/wikis/OpenAirSystemRequirements) and [kernel](https://gitlab.eurecom.fr/oai/openairinterface5g/-/wikis/OpenAirKernelMainSetup) requirements** are very important. So it is important to properly go through the requirements from the [OAI webpage](https://gitlab.eurecom.fr/oai/openairinterface5g/-/wikis/OpenAirSoftwareSupport).
+
+### Video Demonstration
+[Click here to see the video.](https://www.youtube.com/watch?v=R4feb7tNQFU&t=7s)
 
 ### Hardware
 The hardware requirements are given in the [OAI git page](https://gitlab.eurecom.fr/oai/openairinterface5g/-/wikis/OpenAirSystemRequirements).
